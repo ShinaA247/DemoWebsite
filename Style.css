@@ -1,0 +1,592 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.Container {
+height: 1000px;
+
+}
+
+.topBox {
+height: 80px;
+background-color: #a8a9ad;
+color: white;
+display:flexbox;
+}
+
+.rowContainer {
+     position: relative;
+        box-sizing: border-box;
+    display:flexbox;
+    }
+    
+.leftboxToprow {
+     position: relative;
+	 padding: 30px;
+	 font-weight:300;
+	}
+.rightToprow{
+	float: right;
+}
+
+
+.logoBox {
+height: 100px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.logoBoxleft {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0;
+	padding:0;
+	
+}
+
+.logoBoxright{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: flex-start;
+	float: right;
+	margin: 0;
+	padding:0;
+}
+
+
+.menuBox {
+	background-color: black;
+	color: white;
+	height: 64px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	}
+
+	summary:focus {
+		outline-style: none;
+		
+	  }
+	  /* Summary focus is for collapsible*/
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: black;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	  }
+	  
+	  	  .dropdown-content a {
+		color: white;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: lightseagreen;}
+	  
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
+	
+	  .picBox {
+		background-color: transparent;
+            background-image: url(images/Company-Profile.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+			
+height: 500px;
+width: 100%;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-shadow: 1em white;
+
+	  }
+
+.infoBox{
+height: 594px;
+color: black;
+
+}
+.covid {
+		font-family: Georgia sans-serif;
+	}
+
+.moreInfo{
+	margin:30px 0 0 500px; 
+	font-size: 30px;
+}
+
+.button {
+	
+	background: black;
+	color: #DD380D;
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 15px;
+	margin-left:750px;
+	 box-shadow: 1px 1px 20px 0 #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	text-align: center;
+		
+ }
+ 
+ .button:hover
+  {
+	 border: solid #337FED 1px;
+	background: lightpink;
+	background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+	border-radius: 14px;
+	text-decoration: none;
+ }
+ .button:active {
+	 background: green;
+	 box-shadow: 0 0 20px rgba (0,0,0,0.8)
+ }
+
+
+ .separator {
+color: red;
+width: 100%;
+margin-top: 20px;
+padding-top: 20px;
+ padding-bottom: 10px;
+ text-align: center;
+ vertical-align: middle;
+ width:75%;
+ left: 10em;
+ margin-right: -50%;
+position: relative;
+border-top-style: solid;
+border-width: 5px;
+
+} 
+
+.infoBottom {
+align-items: center;
+text-align: center;
+
+}
+
+.gR {
+
+	text-align: center; 
+	font-size: 25px; 
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom: 15px;
+}
+.our {
+	text-align: center;
+	text-align: center; font-size: 20px; 
+	font-family:Arial, Helvetica, sans-serif;
+	 font-style: italic;
+	 margin: 20px 0 15px 0;
+}
+
+.info {
+    text-align: center; 
+    font-size: 15px; 
+    font-family:Arial, Helvetica, sans-serif;  
+	padding: 10px 30px 0 30px;
+	line-height: 1.7;
+}
+
+p
+{
+	    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	line-height: 1.7;
+}
+
+.testimonial {
+
+height: 450px;
+background-color: #a8a9ad;
+display: flex;
+  justify-content: space-around;
+
+}
+
+
+.test_rightbox, .test_leftbox {
+	
+	width: 400px;
+	height: 450px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding:0;
+	margin:0;
+	border:0;
+
+
+}
+
+
+.quote {
+height: 400px;
+align-items: left;
+margin: 25px;
+padding: 25px;
+
+}
+
+.quote1{
+
+	text-align: left; font-size: 15px; 
+	font-family:Arial, Helvetica, sans-serif;
+	 padding-bottom:50px;
+	 line-height: 1.7; 
+	 text-align: center;
+	 margin: 0 50px 0 50px;
+}
+
+.quote2{
+	text-align: center;
+	 font-size: 35px; 
+	font-family:Arial, Helvetica, sans-serif;
+	 font-weight:600; padding-bottom:30px;
+}
+
+.quote3 {
+	text-align: center;
+                    text-align: center; 
+					font-size: 20px;
+					 font-family:Arial, Helvetica, sans-serif; 
+					 font-style: italic; 
+					 padding-bottom:18px;
+					 
+					}
+.button1 {
+	padding:18px; 
+	font-size: 20px;
+	 margin-left: 600px;
+	 background: black;
+	color: #DD380D;
+	font-family: Georgia;
+	font-weight: 100;
+	box-shadow: 1px 1px 20px 0 #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	text-align: center;
+
+}
+
+ .button1:hover
+  {
+	 border: solid #337FED 1px;
+	background: lightpink;
+	background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+	border-radius: 14px;
+	text-decoration: none;
+ }
+ .button1:active {
+	 background: green;
+	 box-shadow: 0 0 20px rgba (0,0,0,0.8)
+ }
+
+
+
+
+.bottomBox {
+
+	height: 350px;
+background-color: #a8a9ad;
+display: flex;
+  justify-content: space-around;
+  padding:0;
+	margin:0;
+	border:0;
+}
+
+.bLeftBox, .bRightBox {
+
+	width: 400px;
+	height: 350px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding:0;
+	margin:0;
+	border:0;
+	line-height: 1.7;
+}
+
+
+.footer {
+height: 50px;
+	background-color: black;
+	padding:25px;
+	margin:0;
+	border:0;
+	color: white;
+	text-align: center;
+}
+
+@media (max-width: 567px) {
+
+	.rowContainer{
+	
+	position: relative;
+	   font-size: 8px;
+	   margin-left: 300px;
+	   height: 100px;
+	 }
+	
+	 .leftboxToprow {
+		 font-size: 12px;
+	 }
+	.rightToprow{
+	
+	margin-right: 200px;
+	font-size: 12px;
+	
+	}
+	
+	
+	.logoBox {
+		display: block;
+		position: relative;
+		z-index: -1; /* put the element behind the background*/
+		height: 120px;
+		margin-left: 100px;
+				
+	  }
+	
+	  .logoBox span{
+	background-color: black;
+	color: black;
+	  display: flex;
+	  width: 33px;
+	  height: 4px;
+	  margin-bottom: 5px;
+	  margin-left: 200px;
+	   position: relative;
+	   background: #cdcdcd;
+	   
+	  }
+	.logoBoxright {
+		display: none;
+	}
+	
+	.menuBox {
+		display: none;
+	}
+	
+	.picBox {
+			 
+	height: 250px;
+	text-shadow: 8px white;
+	font-size: 10px;
+	  }
+	
+	  .picBox span {
+		font-size: 15px;
+	
+	  }
+	
+	  .infoBox{
+		height: 400px;
+		font-size: 10px;
+	   
+	  }
+	
+	.covid button {
+	
+		margin-left:250px;
+		font-size: 10px;
+		padding: 10px;
+	}
+	
+	.covid p{
+		font-size: 15px;
+		font-weight: 350;
+	}
+	
+	.covid dropdown {
+	   font-size: 10px;
+		margin: 0;
+	}
+	
+	.moreInfo{
+	
+	   font-size: 12px;
+	   margin: 15px 0 0 200px;
+	   
+	}
+	
+	.infoBottom {
+		   height: 200px;
+	}
+	
+	
+	.gR {
+		font-size: 15px;
+	}
+	
+	.our {
+		font-size: 12px; 
+		margin-top: 10px;
+	}
+	
+	.info {
+		  font-size: 12px; 
+		  margin-top: 10px;
+		  line-height: 1.2;
+	}
+	
+	.testimonial {
+	
+		display: flex;
+		flex-direction: column;
+		height: 500px;
+	}
+		
+	.test_rightbox, .test_leftbox {
+	
+		height: 250px;
+	}
+	
+	.test_rightbox iframe {
+	
+		width: 300px;
+		height: 150px;
+		margin-left: 100px;
+		margin-bottom: 10px;
+		padding: 0;
+	
+		}
+	
+	.test_leftbox {
+	
+		width: 300px;
+		height: 200px;
+		margin-left: 100px;
+		margin-top: 10px;
+		padding: 0;
+	
+		
+	}
+	
+	
+	.test_leftbox button {
+		font-size: 8px;
+		font-weight: 50;
+		padding: 8px;
+		}
+	
+		.quote1, .quote3 {
+	
+	font-size: 10px;
+		}
+	
+		.quote2 {
+			font-size: 20px;
+		}
+	
+		.button1 {
+			padding:10px; 
+			font-size: 20px;
+			 margin-left: 120px;         
+			font-weight: 50;
+		   
+		}
+	
+		.bottomBox {
+			display: flex;
+			flex-direction: column;
+			height: 300px;
+			box-sizing: border-box;
+		  
+		}
+		.bLeftBox, .bRightBox {
+	
+			height: 250px;
+			margin: 0 80px 0 80px;
+			justify-content: center;
+			box-sizing: border-box;
+			
+			
+		}
+
+				
+	}
+	
+
+
+
